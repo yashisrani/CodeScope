@@ -1,4 +1,4 @@
-# Codescope
+# 🔍 Codescope
 
 **Automated TypeScript/JavaScript code analysis powered by AST parsing.**
 
@@ -8,7 +8,39 @@ Built on [NitroStack](https://nitrostack.ai), Codescope exposes analysis results
 
 ---
 
-## Features
+## ✨ Why Codescope?
+
+Most code analysis tools force you to upload source to the cloud, pay for SaaS subscriptions, wait minutes for scans, and drown in regex false positives. **Codescope does none of that.**
+
+- ✅ **100% offline** — your code never leaves your machine
+- ✅ **AST-precise** — uses the TypeScript compiler API, not regex guesswork
+- ✅ **Instant results** — analyzes thousands of files in seconds
+- ✅ **AI-native** — designed for MCP, works with any AI assistant
+
+---
+
+## 🎯 Who Is It For?
+
+### 🎓 Students & Learners
+- Understand code quality and why professors say "refactor this"
+- Catch issues before submitting assignments
+- Ship cleaner, more professional portfolio projects
+
+### 💼 Professional Developers
+- Pre-commit health checks before PR review
+- Onboard faster on unfamiliar codebases
+- Detect hardcoded secrets, SQL injection risks, eval() calls
+- Identify dead code and circular dependencies before refactoring
+
+### 🏢 Engineering Teams
+- Generate reports for every sprint retrospective
+- Track health scores across releases
+- Automated code review guidance for junior developers
+- Security audit trails for compliance
+
+---
+
+##  🚀 Project Features
 
 ### 1. Project Overview
 
@@ -121,7 +153,26 @@ No API key required — purely algorithmic.
 
 ---
 
-## Tools Summary
+## 💡 Example Use Cases
+
+**"Is my side project production-ready?"**
+> Run `generate-code-health-score` → get a grade and fix list before deploying.
+
+**"I'm inheriting a legacy codebase. Where do I start?"**
+> Run `find-hotspots` with `metric: complexity` → refactor the top 5 files first.
+
+**"Did I accidentally commit a secret?"**
+> Run `security-audit` → catch hardcoded keys before `git push`.
+
+**"Why is my build so slow?"**
+> Run `detect-circular-dependencies` → break import cycles that hurt tree-shaking.
+
+**"My team needs a code quality report for the sprint."**
+> Run `generate-html-report` → professional output in seconds.
+
+---
+
+## 📝 Tools Summary
 
 | Tool | Module | Input | Output |
 |---|---|---|---|
@@ -137,7 +188,7 @@ No API key required — purely algorithmic.
 
 ---
 
-## Accuracy
+## 🎯 Accuracy
 
 Codescope uses the TypeScript compiler API (`ts.createSourceFile`) for all code analysis. This means:
 
@@ -150,7 +201,7 @@ Third-party/vendored code (static assets, minified bundles, `node_modules`) is a
 
 ---
 
-## Quick Start
+## 📦 Quick Start
 
 ```bash
 # Install dependencies
@@ -168,7 +219,7 @@ npm start
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 Transport is configured automatically based on `NODE_ENV`:
 
@@ -179,7 +230,7 @@ Environment variables are loaded from `.env` via `dotenv`.
 
 ---
 
-## Project Structure
+## 🏗️ Project Structure
 
 ```
 src/
@@ -213,7 +264,7 @@ src/
 
 ---
 
-## Dependencies
+## 🛠️ Dependencies
 
 - `@nitrostack/core` — MCP framework with decorators and DI
 - `@nitrostack/cli` — Build tooling
@@ -224,7 +275,16 @@ src/
 
 ---
 
-## Links
+## 🔒 Privacy & Security
+
+- **Zero network calls** — everything runs locally
+- **No code upload** — your source stays on your machine
+- **No API keys** — no external services, no rate limits
+- **No telemetry** — we don't track what you analyze
+
+---
+
+## 🔗 Links
 
 - [NitroStack Documentation](https://docs.nitrostack.ai)
 - [NitroStudio](https://nitrostack.ai/studio)
