@@ -1,5 +1,6 @@
 .env
 node_modules/
+.nitrostudio/
 src/widgets/node_modules/
 dist/
 src/widgets/.next/
