@@ -1,0 +1,11 @@
+.env
+.git
+.gitignore
+node_modules
+src/widgets/node_modules
+src/widgets/.next
+src/widgets/out
+src/widgets/.nitrostudio
+.nitrostudio
+dist
+*.md

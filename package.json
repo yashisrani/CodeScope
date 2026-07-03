@@ -1,0 +1,32 @@
+{
+  "name": "codescope",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server for automated TypeScript/JavaScript code analysis with AST-powered complexity, security, dead code, and dependency analysis",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "nitrostack-cli dev",
+    "build": "nitrostack-cli build",
+    "start": "nitrostack-cli start",
+    "start:prod": "nitrostack-cli start",
+    "upgrade": "nitrostack-cli upgrade",
+    "install:all": "nitrostack-cli install",
+    "widget": "npm --prefix src/widgets",
+    "clean": "rm -rf dist src/widgets/.next src/widgets/out"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "@nitrostack/core": "^1.0.11",
+    "zod": "^3.22.4",
+    "@modelcontextprotocol/ext-apps": "^0.1.0",
+    "typescript": "^5.3.3",
+    "@nitrostack/cli": "^1.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0"
+  },
+  "author": "NitroStudio"
+}
