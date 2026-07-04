@@ -2,6 +2,15 @@
 
 **Automated TypeScript/JavaScript code analysis powered by AST parsing.**
 
+[![NitroStack](https://img.shields.io/badge/Built%20with-NitroStack-6366f1?style=flat-square)](https://nitrostack.ai)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?style=flat-square)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![MCP](https://img.shields.io/badge/MCP-Protocol-orange?style=flat-square)](https://modelcontextprotocol.io)
+[![Offline](https://img.shields.io/badge/100%25-Offline-brightgreen?style=flat-square)](#)
+[![Zero API Keys](https://img.shields.io/badge/Zero-API%20Keys-critical?style=flat-square)](#)
+
+> **"Know your codebase before it knows you."**
+
 Codescope is an MCP (Model Context Protocol) server that analyzes project source code — not just vendored assets — and returns actionable metrics. It uses the TypeScript compiler API for AST-level analysis instead of regex, delivering accurate cyclomatic complexity, security auditing, dead code detection, circular dependency analysis, and more.
 
 Built on [NitroStack](https://nitrostack.ai), Codescope exposes analysis results as MCP tools and renders interactive visualizations via built-in widgets.
