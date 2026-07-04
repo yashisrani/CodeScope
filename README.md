@@ -8,6 +8,9 @@ Built on [NitroStack](https://nitrostack.ai), Codescope exposes analysis results
 
 ---
 
+<img width="400" height="225" alt="new" src="https://github.com/user-attachments/assets/6698aba7-f63f-4719-958d-8ceca2051cda" />
+
+
 ## ✨ Why Codescope?
 
 Most code analysis tools force you to upload source to the cloud, pay for SaaS subscriptions, wait minutes for scans, and drown in regex false positives. **Codescope does none of that.**
