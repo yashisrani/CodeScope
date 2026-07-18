@@ -4,7 +4,7 @@
 
 [![NitroStack](https://img.shields.io/badge/Built%20with-NitroStack-6366f1?style=flat-square)](https://nitrostack.ai)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?style=flat-square)](https://www.typescriptlang.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![License: Apache](https://img.shields.io/badge/License-Apache-green.svg?style=flat-square)](LICENSE)
 [![MCP](https://img.shields.io/badge/MCP-Protocol-orange?style=flat-square)](https://modelcontextprotocol.io)
 [![Offline](https://img.shields.io/badge/100%25-Offline-brightgreen?style=flat-square)](#)
 [![Zero API Keys](https://img.shields.io/badge/Zero-API%20Keys-critical?style=flat-square)](#)
